@@ -24,7 +24,7 @@ router.get( '/', function( req, res ) {
   res.json({ message: 'API Initialized' })
 });
 
-const port = process.env.API_PORT || 8082;
+const port = process.env.API_PORT || 8083;
 app.use( '/', router );
 app.listen( port, function() {
   console.log( `api running on ${port}` );

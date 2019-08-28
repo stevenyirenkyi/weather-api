@@ -1,0 +1,4 @@
+validate input field
+set timeout on axios
+handle errors better
+map enter key to button
